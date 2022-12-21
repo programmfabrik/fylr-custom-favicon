@@ -1,5 +1,5 @@
 PLUGIN_NAME = custom-favicon
-PLUGIN_PATH = easydb-custom-favicon
+PLUGIN_PATH = fylr-custom-favicon
 
 L10N_FILES = l10n/$(PLUGIN_NAME).csv
 
