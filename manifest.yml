@@ -1,0 +1,23 @@
+plugin:
+  name: custom-favicon
+  version: 1.0
+  displayname:
+    de-DE: Eigenes Favicon
+    en-US: Own favicon
+  info:
+    de-DE: Eigenes Favicon
+    en-US: Own favicon
+  server:
+    api-version:
+      require: 1
+  webfrontend:
+    url: custom-favicon.js
+    l10n: l10n/
+
+base_config:
+  - name: custom_favicon
+    group: custom_favicon
+    parameters:
+      image_as_base64:
+        type: text-multiline
+        position: 0
